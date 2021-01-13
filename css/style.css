@@ -1,0 +1,135 @@
+#header-section {
+  padding: 0px; }
+  #header-section .navbar {
+    background: #E74C3C !important;
+    color: #fff !important;
+    padding: 5px; }
+  #header-section .navbar-brand {
+    color: #fff;
+    font-size: 2rem;
+    padding: 0; }
+  #header-section .nav-item {
+    padding-left: 10px; }
+  #header-section .nav-link {
+    color: #fff; }
+
+#banner {
+  background: url("../img/banner.jpg") no-repeat 0 0;
+  background-size: cover; }
+  #banner h1 {
+    font-size: 2.5rem;
+    background: rgba(225, 225, 225, 0.9);
+    color: #000;
+    display: inline-block;
+    padding: 10px;
+    margin: 0; }
+  #banner .lead {
+    display: block;
+    background: rgba(231, 76, 60, 0.7);
+    padding: 10px; }
+
+#home-icon .fa {
+  color: #E74C3C;
+  font-size: 70px;
+  margin-bottom: 10px; }
+
+#testmonial {
+  background: url("../img/testimonial-bg.jpg") no-repeat 0 0;
+  background-size: cover;
+  position: relative; }
+  #testmonial h2:after {
+    content: " ";
+    display: block;
+    background: #E74C3C;
+    width: 100px;
+    height: 3px;
+    margin: 20px auto; }
+
+#testmonial:before {
+  content: " ";
+  background: rgba(44, 62, 80, 0.7);
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute; }
+
+.headerbg h2:after {
+  content: " ";
+  display: block;
+  background: #E74C3C;
+  width: 100px;
+  height: 3px;
+  margin: 20px auto; }
+
+#recent-news h3 {
+  color: #E74C3C;
+  font-size: 1.36rem;
+  margin: 8px 0px; }
+
+#recent-news .post-date {
+  font-size: 13px;
+  margin-bottom: 5px; }
+
+#recent-news .post-date:before {
+  content: "\f073";
+  font-family: FontAwesome;
+  padding-right: 5px; }
+
+#recent-news a {
+  color: #E74C3C; }
+
+#recent-news a:hover {
+  color: #000;
+  text-decoration: none; }
+
+#recent-news a:after {
+  content: "\f101";
+  font-family: FontAwesome;
+  margin-left: 5px; }
+
+#recent-news img {
+  width: 100%; }
+
+#footer-top {
+  background: #34495E;
+  color: #fff; }
+  #footer-top h2 {
+    font-size: 1.36rem;
+    margin-bottom: 10px;
+    margin-top: 15px; }
+  #footer-top h2:after {
+    content: "";
+    display: block;
+    width: 100px;
+    background: #fff;
+    height: 2px;
+    margin: 10px 0px; }
+  #footer-top li {
+    list-style: none;
+    padding-right: 12px;
+    padding-top: 5px; }
+  #footer-top li:before {
+    content: "\f101";
+    font-family: FontAwesome;
+    margin-right: 5px; }
+
+#footer {
+  background: #2C3E50; }
+  #footer .fa {
+    font-size: 20px;
+    color: #fff; }
+
+@media (max-width: 576px) {
+  #testmonial {
+    min-height: 600px; }
+    #testmonial .dark-overlay {
+      background: rgba(44, 62, 80, 0.7);
+      min-height: 600px; } }
+
+@media (max-width: 450px) {
+  #testmonial {
+    min-height: 630px; }
+    #testmonial .dark-overlay {
+      background: rgba(44, 62, 80, 0.7);
+      min-height: 630px; } }
